@@ -1,4 +1,3 @@
-import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shopeapp/Controller/HomeController.dart';
@@ -8,9 +7,7 @@ import 'screen/HomeScreen/prudectpage.dart';
 
 void main() {
   runApp(
-    DevicePreview(
-      builder: (context) => MyApp(), // Wrap your app
-    ),
+    MyApp(),
   );
 }
 
